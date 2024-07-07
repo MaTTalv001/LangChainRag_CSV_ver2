@@ -28,7 +28,7 @@ def query_data(query):
     embeddings = OpenAIEmbeddings()
     vectorstore = Chroma(persist_directory=CHROMA_PERSIST_DIR, embedding_function=embeddings)
     
-    llm = ChatOpenAI(model_name="gpt-4", temperature=0)
+    llm = ChatOpenAI(model_name="gpt-4o", temperature=0)
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
         chain_type="stuff",
