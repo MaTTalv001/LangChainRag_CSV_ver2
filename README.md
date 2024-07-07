@@ -18,6 +18,7 @@ cd rag-application
 2. `secrets.toml`ファイルの設定：
 `.streamlit/secrets.toml`ファイルを作成し、OpenAI APIキーを追加します。
 ```toml
+# touch .streamlit/secrets.toml
 OPENAI_API_KEY = "your_openai_api_key_here"
 ```
 3. CSVファイルの準備：
