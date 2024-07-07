@@ -1,0 +1,34 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# 仮想環境
+venv/
+env/
+ENV/
+
+# Streamlit関連
+.streamlit/secrets.toml
+
+# データとベクトルストア
+data/*.csv
+persistent_storage/
+
+# OSファイル
+.DS_Store
+Thumbs.db
+
+# エディタ/IDE関連
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ログファイル
+*.log
+
+# 環境変数ファイル
+.env
+
