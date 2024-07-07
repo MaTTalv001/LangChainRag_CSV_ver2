@@ -11,7 +11,7 @@
 
 1. リポジトリのクローン：
 ```
-git clone 
+git clone git@github.com:MaTTalv001/LangChainRag_CSV_ver2.git
 cd rag-application
 ```
 
